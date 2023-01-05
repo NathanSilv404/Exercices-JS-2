@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Exercice 4</title>
 </head>
+
 <body>
   <form>
-    <label for="lastname">Votre nom  : </label><input type="text" name="lastname" value="Doe" id="lastname" />
-    <label for="firstname">Votre prenom  : </label><input type="text" name="firstname" value="John" id="firstname" />
-    <label for="city">Votre ville  : </label><input type="text" name="city" value="New York" id="city" />
-    <button type="button" name="button">RAZ</button>
+    <label for="lastname">Votre nom : </label><input type="text" name="lastname" value="Doe" id="lastname" />
+    <label for="firstname">Votre prenom : </label><input type="text" name="firstname" value="John" id="firstname" />
+    <label for="city">Votre ville : </label><input type="text" name="city" value="New York" id="city" />
+    <button type="button" name="button" id="zero" onclick="pablo()">RAZ</button>
   </form>
+  <script>
+    function pablo() {
+
+      let lastname = document.getElementById("lastname");
+      lastname.value = "";
+      let firstname = document.getElementById("firstname") ;
+      firstname.value = "";
+      let city = document.getElementById("city");
+      city.value = "";
+      
+
+      
+      
+        
+
+
+    }
+
+
+
+
+  </script>
+
+
+
 </body>
+
 </html>

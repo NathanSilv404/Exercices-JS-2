@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Exercice 1</title>
-  </head>
-  <body>
-      <img src="images/image1.jpg" id="image1" />
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 1</title>
+</head>
+
+<body>
+
+
+  <img id='menuImg' src="images/image1.jpg" onmouseover="hover(this);" onmouseout="hoverOut(this)"/>
+
+  <script>
+    function hover(img)
+{
+ img.src = "images/image1_2.jpg"
+ 
+
+ 
+}
+function hoverOut(img)
+{
+ img.src = "images/image1.jpg" }
+  </script>
+
+
+
+  
+
+
+
+</body>
+
 </html>
